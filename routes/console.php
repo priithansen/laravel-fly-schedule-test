@@ -11,4 +11,4 @@ Artisan::command('inspire', function () {
 
 Schedule::call(function () {
     Log::info('Cron job is working fine!');
-})->everyTenSeconds();
+})->everyMinute();
