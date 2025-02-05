@@ -1,1 +1,2 @@
-* * * * * www-data /usr/bin/php /var/www/html/artisan schedule:run 1>&2
+MAILTO=""
+* * * * * www-data /usr/bin/php /var/www/html/artisan schedule:run
